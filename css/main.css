@@ -1,4 +1,3 @@
-
 @media { /* trick */ }
 
 body {
@@ -28,10 +27,6 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 0 2px 6px 2px rgba(28, 28, 28, 0.06)
-}
-
-.name-ru::before {
-  color: #416fb3;
 }
 
 .b-link {
@@ -67,14 +62,14 @@ h2.subheadline.green.m10 {
   border-left: 4px solid #c1d7af;
 }
 
-.comments-loader, .comments-expander, .collapsed {
+.comments-loader, .comments-expander, .collapsed, .b-comments .comments-hider {
   background-color: #dec3f7ab !important;
   border-radius: 10px;
   border: none !important;
   box-shadow: 0 2px 6px 2px rgba(30, 30, 30, 0.04);
 }
 
-.comments-loader:hover, .comments-expander:hover, .collapsed:hover {
+.comments-loader:hover, .comments-expander:hover, .collapsed:hover, .b-comments .comments-hider:hover {
   -webkit-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
   -moz-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
   box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
@@ -372,7 +367,7 @@ background-color: #fbecc3;
 }
 
 .p-profiles .profile-head .c-history .entry:hover .name-ru:before {
-  color: rgb(52, 0, 136);
+  color: rgb(52, 0, 136) !important;
 }
 
 .p-profiles .profile-head .c-history .entry:hover, .p-profiles .profile-head .c-history .entry, .p-profiles .profile-head .c-history .entry .name-ru:before, .p-profiles .profile-head .c-history .entry .name-ru {
@@ -602,5 +597,9 @@ aside.buttons .editor-controls .b-tooltipped:hover {
 
 aside.buttons .editor-controls .b-tooltipped:active {
   background-color: #dd52024f !important;
+}
+
+.p-profiles .profile-head .c-history .entry .title .name-ru::before {
+  color: #416fb3;
 }
 
