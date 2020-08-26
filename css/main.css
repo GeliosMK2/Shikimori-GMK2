@@ -123,7 +123,7 @@ span.other-names:hover {
   background-color: #fff;
 }
 
-.user_rate.selectable.editable:hover, .p-userlist_comparer .comparer table .selectable:hover {
+.p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover {
   background-color: rgba(242,179,237,0.25);
 }
 
