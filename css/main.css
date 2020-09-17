@@ -123,8 +123,17 @@ span.other-names:hover {
   background-color: #fff;
 }
 
-.p-user_rates-index .list-lines .selectable:hover, .p-userlist_comparer .comparer table .selectable:hover {
-  background-color: rgba(242,179,237,0.25);
+.p-user_rates-index .list-lines .selectable:hover {
+  background-color: rgba(242,179,237,0.26);
+}
+
+.p-userlist_comparer .comparer table .selectable {
+  transition: transform 150ms ease;
+}
+
+.p-userlist_comparer .comparer table .selectable:hover {
+  background-color: rgba(80, 75, 125, 0.3);
+  transform: scale(1.02);
 }
 
 .p-profiles .profile-head .c-brief header h1 {
@@ -601,5 +610,45 @@ aside.buttons .editor-controls .b-tooltipped:active {
 
 .p-profiles .profile-head .c-history .entry .title .name-ru::before {
   color: #416fb3;
+}
+
+.b-table tr.border {
+  border-color: lightsteelblue;
+}
+
+.bar.vertical .line .x_label {
+  font-family: Arial, sans-serif;
+}
+
+.p-userlist_comparer .comparer table .exact-same, .p-userlist_comparer .legend .exact-same {
+  background: rgba(90, 255, 0, 0.2);
+}
+
+.p-userlist_comparer .comparer table .almost-same, .p-userlist_comparer .legend .almost-same {
+  background: rgba(120, 200, 90, 0.2);
+}
+
+.p-userlist_comparer .comparer table .abslt-difr, .p-userlist_comparer .legend .abslt-difr {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+.p-userlist_comparer .comparer table .slightly-difr, .p-userlist_comparer .legend .slightly-difr {
+  background: rgba(255, 145, 145, 0.2);
+}
+
+span[style="background: #f2fff2; padding: 0 2px;"] {
+  background-color: rgba(120, 200, 90, 0.2) !important;
+}
+
+span[style="background: #fff2f2; padding: 0 2px;"] {
+  background-color: rgba(255, 145, 145, 0.2) !important;
+}
+
+span[style="background: #e6ffe6; padding: 0 2px;"] {
+  background-color: rgba(90, 255, 0, 0.2) !important;
+}
+
+span[style="background: #ffe6e6; padding: 0 2px;"] {
+  background-color: rgba(255, 0, 0, 0.2) !important;
 }
 
