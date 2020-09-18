@@ -652,3 +652,6 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
   background-color: rgba(255, 0, 0, 0.2) !important;
 }
 
+#clubs_show .m8 .b-link {
+  text-decoration: none;
+}
