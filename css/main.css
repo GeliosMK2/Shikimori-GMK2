@@ -45,7 +45,7 @@ body {
   color: #8b969c;
 }
 
-.prepared-backgrounds, .b-feedback, .hotkey-marker, .body_background, .page_background_color {
+.prepared-backgrounds, .b-feedback, .hotkey-marker, .body_background, .page_background_color, .b-input.sticky_menu, .b-input.page_border {
   display: none;
 }
 
