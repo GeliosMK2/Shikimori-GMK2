@@ -62,14 +62,14 @@ h2.subheadline.green.m10 {
   border-left: 4px solid #c1d7af;
 }
 
-.comments-loader, .comments-expander, .collapsed, .b-comments .comments-hider {
+.comments-loader, .comments-expander, .collapsed, .b-comments .comments-hider, .collapsed+.spoiler .hide-expanded {
   background-color: #dec3f7ab !important;
   border-radius: 10px;
   border: none !important;
   box-shadow: 0 2px 6px 2px rgba(30, 30, 30, 0.04);
 }
 
-.comments-loader:hover, .comments-expander:hover, .collapsed:hover, .b-comments .comments-hider:hover {
+.comments-loader:hover, .comments-expander:hover, .collapsed:hover, .b-comments .comments-hider:hover, .collapsed+.spoiler .hide-expanded:hover {
   -webkit-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
   -moz-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
   box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.17) inset;
@@ -91,7 +91,7 @@ span.other-names:hover {
   border-radius: 50%;
 }
 
-.image-decor img, .entry img {
+.image-decor img, .entry img, .b-catalog_entry .cover {
   border-radius: 10px;
 }
 
@@ -218,19 +218,19 @@ span.other-names:hover {
   color: #ff4f80;
 }
 
-.l-top_menu-v2 .menu-icon.forum:hover, .l-top_menu-v2 .menu-icon.mail:hover, .l-top_menu-v2 .menu-icon.contest:hover {
+.l-top_menu-v2 .menu-icon.forum:hover, .l-top_menu-v2 .menu-icon.mail:hover, .l-top_menu-v2 .menu-icon.contest:hover, .l-top_menu-v2 .menu-icon.sign_in:hover {
   background-color: rgba(230,165,225,0.25);
 }
 
-.l-top_menu-v2 .menu-icon.forum:focus, .l-top_menu-v2 .menu-icon.mail:focus, .l-top_menu-v2 .menu-icon.contest:focus {
+.l-top_menu-v2 .menu-icon.forum:focus, .l-top_menu-v2 .menu-icon.mail:focus, .l-top_menu-v2 .menu-icon.contest:focus, .l-top_menu-v2 .menu-icon.sign_in:focus {
   background-color: rgba(206, 131, 200, 0.25);
 }
 
-.l-top_menu-v2 .menu-icon.forum:active, .l-top_menu-v2 .menu-icon.mail:active, .l-top_menu-v2 .menu-icon.contest:active {
+.l-top_menu-v2 .menu-icon.forum:active, .l-top_menu-v2 .menu-icon.mail:active, .l-top_menu-v2 .menu-icon.contest:active, .l-top_menu-v2 .menu-icon.sign_in:active {
   background-color: rgba(224, 151, 218, 0.25);
 }
 
-.l-top_menu-v2 .menu-icon.forum, .l-top_menu-v2 .menu-icon.forum:hover, .l-top_menu-v2 .menu-icon.mail, .l-top_menu-v2 .menu-icon.mail:hover, .l-top_menu-v2 .menu-icon.contest, .l-top_menu-v2 .menu-icon.contest:hover {
+.l-top_menu-v2 .menu-icon.forum, .l-top_menu-v2 .menu-icon.forum:hover, .l-top_menu-v2 .menu-icon.mail, .l-top_menu-v2 .menu-icon.mail:hover, .l-top_menu-v2 .menu-icon.contest, .l-top_menu-v2 .menu-icon.contest:hover, .l-top_menu-v2 .menu-icon.sign_in, .l-top_menu-v2 .menu-icon.sign_in:hover {
   transition: all 250ms;
 }
 
@@ -294,7 +294,14 @@ background-color: #fbecc3;
 }
 
 .b-stats_bar.lifetime .bar .first {
-  background-color: #f45151eb;
+  background: rgba(255,93,177,1);
+  background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(244,81,81,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(100%, rgba(244,81,81,1)));
+  background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(244,81,81,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(244,81,81,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(244,81,81,1) 100%);
+  background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(244,81,81,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#f45151', GradientType=1 );
 }
 
 .p-profiles-show .lifetime .times .time.checked:before {
@@ -391,11 +398,11 @@ background-color: #fbecc3;
   box-shadow: 0 0 3px 1px rgba(30, 30, 30, 0.12);
 }
 
-.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover {
+.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img:hover, .b-catalog_entry .cover:hover {
   box-shadow: 0 0 3px 2px rgba(25, 25, 105, 0.41);
 }
 
-.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover {
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img, .b-badge img:hover, .b-catalog_entry .cover, .b-catalog_entry .cover:hover {
   transition: all 85ms ease;
 }
 
@@ -655,3 +662,4 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
 #clubs_show .m8 .b-link {
   text-decoration: none;
 }
+
