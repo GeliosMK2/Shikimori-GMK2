@@ -663,3 +663,7 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
   text-decoration: none;
 }
 
+.profile-actions .fav-remove {
+  color: green;
+}
+
