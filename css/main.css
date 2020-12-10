@@ -91,8 +91,12 @@ span.other-names:hover {
   border-radius: 50%;
 }
 
-.image-decor img, .entry img, .b-catalog_entry .cover {
+.image-decor img, .b-catalog_entry .cover {
   border-radius: 10px;
+}
+
+.p-profiles .profile-head .c-history .entry img {
+  border-radius: 8px;
 }
 
 .b-badge img {
@@ -357,7 +361,7 @@ background-color: #fbecc3;
   }
 }
 
-/*----------  Profile nickname animation -END-  ----------*/
+/*----------  Profile nickname animation --END--  ----------*/
 
 .b-badge:before {
   background-color: rgba(17, 34, 51, 0.6);
@@ -375,7 +379,7 @@ background-color: #fbecc3;
 
 .p-profiles .profile-head .c-history .entry:hover {
   background-color: rgba(223,181,255,0.25);
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .p-profiles .profile-head .c-history .entry:hover .title {
@@ -480,7 +484,7 @@ background-color: #fbecc3;
   }
 }
 
-/*----------  Animation "l-page-shadow" -END-  ----------*/
+/*----------  Animation "l-page-shadow" --END--  ----------*/
 
 .b-to-top.active .slide {
   width: 60px;
@@ -666,4 +670,30 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
 .profile-actions .fav-remove {
   color: green;
 }
+
+/* -----------------------------------------  Hidden History Block  ----------------------------------------- */
+
+.p-profiles .profile-head .c-history.x3 .b-block_list {
+  background: url(https://raw.githubusercontent.com/GeliosMK2/Shikimori-GMK2/master/img/history-hover.png) center center;
+  background-size: cover;
+  transition: all 0.45s ease;
+}
+
+.p-profiles .profile-head .c-history.x3 .b-block_list .entry {
+  opacity: 0;
+  transition: opacity 0.45s ease, background 0.15s ease;
+  border-top: none;
+}
+
+.p-profiles .profile-head .c-history.x3 .b-block_list:hover .entry {
+  opacity: 1;
+  transition: opacity 0.5s ease, background 0.15s ease;
+}
+
+.p-profiles .profile-head .c-history.x3 .b-block_list:hover {
+  background: transparent;
+  transition: all 0.45s ease;
+}
+
+/* -----------------------------------------  Hidden History Block --END--  ----------------------------------------- */
 
