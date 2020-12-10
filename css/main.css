@@ -398,11 +398,11 @@ background-color: #fbecc3;
   box-shadow: 0 0 3px 1px rgba(30, 30, 30, 0.12);
 }
 
-.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img:hover, .b-catalog_entry .cover:hover {
+.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img:hover, #profiles_show .b-catalog_entry .cover:hover {
   box-shadow: 0 0 3px 2px rgba(25, 25, 105, 0.41);
 }
 
-.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img, .b-badge img:hover, .b-catalog_entry .cover, .b-catalog_entry .cover:hover {
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .b-club .logo, .b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover, .b-club .logo:hover, .b-badge img, .b-badge img:hover, #profiles_show .b-catalog_entry .cover, #profiles_show .b-catalog_entry .cover:hover {
   transition: all 85ms ease;
 }
 
