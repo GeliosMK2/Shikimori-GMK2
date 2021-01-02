@@ -142,7 +142,7 @@ span.other-names:hover {
 
 .p-profiles .profile-head .c-brief header h1 {
   color: rgb(110,74,107);
-  text-shadow: purple 0 0 2px;
+  text-shadow: purple 0 0 3px;
   pointer-events: none;
 }
 
@@ -631,6 +631,10 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
 
 .b-add_to_list .trigger-arrow {
   padding: 0 5px;
+}
+
+.b-add_to_list .option, .b-add_to_list .trigger-arrow {
+  transition: background 120ms ease;
 }
 
 .b-add_to_list .option:hover, .b-add_to_list .trigger-arrow:hover {
