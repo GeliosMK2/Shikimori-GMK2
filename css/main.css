@@ -652,3 +652,7 @@ span[style="background: #ffe6e6; padding: 0 2px;"] {
 .b-add_to_list.on_hold .option:hover, .b-add_to_list.on_hold .trigger-arrow:hover {
   background-color: #DBE0E6;
 }
+
+.b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .trigger, .b-db_entry-variant-list_item>.info .b-user_rate .b-add_to_list .option {
+  padding: 0;
+}
