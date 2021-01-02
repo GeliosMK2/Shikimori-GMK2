@@ -313,8 +313,9 @@ background-color: #fbecc3;
   color: #2ecc83;
 }
 
-.b-badge:before {
+.p-profiles-show .achievements .cc-franchises .b-badge:before {
   background-color: rgba(17, 34, 51, 0.6);
+  border-radius: 0 5px 0 1px;
 }
 
 .p-profiles-show .profile-content .activity .title {
