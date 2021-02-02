@@ -184,6 +184,10 @@ span.other-names:hover {
   float: left;
 }
 
+.l-footer a {
+  outline: none;
+}
+
 #profiles_show .l-page {
   margin-top: 65px;
   border-radius: 15px;
