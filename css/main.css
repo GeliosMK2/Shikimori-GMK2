@@ -99,6 +99,11 @@ span.other-names:hover {
   border-radius: 8px;
 }
 
+#profiles_show .achievements .cc-franchises .b-badge {
+  border-radius: 5px;
+  border: 1px solid #d3d3d36e;
+}
+
 .b-badge img {
   border-radius: 5px;
 }
