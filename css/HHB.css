@@ -1,23 +1,23 @@
 /* -----------------------------------------  Hidden History Block  ----------------------------------------- */
 
-.p-profiles .profile-head .c-history.x3 .b-block_list {
+.p-profiles .profile-head .c-history.x3>div:nth-child(2) {
   background: url(https://raw.githubusercontent.com/GeliosMK2/Shikimori-GMK2/master/img/history-hover.png) center center;
   background-size: cover;
   transition: all 0.45s ease;
 }
 
-.p-profiles .profile-head .c-history.x3 .b-block_list .entry {
+.p-profiles .profile-head .c-history.x3>div:nth-child(2) .entry {
   opacity: 0;
   transition: opacity 0.45s ease, background 0.15s ease;
   border-top: none;
 }
 
-.p-profiles .profile-head .c-history.x3 .b-block_list:hover .entry {
+.p-profiles .profile-head .c-history.x3>div:nth-child(2):hover .entry {
   opacity: 1;
   transition: opacity 0.5s ease, background 0.15s ease;
 }
 
-.p-profiles .profile-head .c-history.x3 .b-block_list:hover {
+.p-profiles .profile-head .c-history.x3>div:nth-child(2):hover {
   background: transparent;
   transition: all 0.45s ease;
 }
